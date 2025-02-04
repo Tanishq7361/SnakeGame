@@ -24,17 +24,17 @@
 
 It's SUPER EASY.
 <br>
-You can use Arrow keys to move the hungry snake and you can also use WASD.
+You can use Arrow keys↗️ to move the hungry snake and you can also use 'W' 'A' 'S' 'D'.
 <br>
-	&ensp; &ensp;&ensp;👉W: Move up (upwards on the screen).
+	&ensp; &ensp;&ensp;👉<b>W</b>: Move up (upwards on the screen).
  <br>
-	&ensp; &ensp;&ensp;👉A: Move left (to the left on the screen).
+	&ensp; &ensp;&ensp;👉<b>A</b>: Move left (to the left on the screen).
  <br>
-	&ensp; &ensp;&ensp;👉S: Move down (downwards on the screen).
+	&ensp; &ensp;&ensp;👉<b>S</b>: Move down (downwards on the screen).
  <br>
-	&ensp; &ensp;&ensp;👉D: Move right (to the right on the screen).
+	&ensp; &ensp;&ensp;👉<b>D</b>: Move right (to the right on the screen).
  <br>
-You can use 'esc' to pause the game and if you press 'esc' again the game resumes.
+You can use <b>'esc'</b> to pause the game and if you press <b>'esc'</b> again the game resumes.
 
 Credits💳:
 
