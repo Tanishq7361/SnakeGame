@@ -11,12 +11,16 @@
 <u><b><h2>Features:🎯</h2></b></u>
 
 &ensp; &ensp; Classic Snake gameplay with modern tweaks.
+<br>
 Random food generation for added excitement.
+<br>
 Increasing snake speed as it grows longer.
+<br>
 Playable using both arrow keys and WASD keys for flexibility.
+<br>
 Clear and intuitive terminal-based interface.
-
-<u><b><h2>How to play game🎮⁉️</h2></b></u>
+<br>
+<u><b><h2>How to play game🎮</h2></b></u>
 
 It's SUPER EASY.
 <br>
