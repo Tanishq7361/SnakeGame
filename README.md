@@ -20,6 +20,8 @@
 <br>
 &ensp; &ensp;👉 Clear and intuitive terminal-based interface.
 <br>
+&ensp; &ensp;👉 Increases speed of snake after it consumes food 
+<br>
 <u><b><h2>How to play game🎮</h2></b></u>
 
 It's SUPER EASY.
@@ -34,6 +36,7 @@ You can use Arrow keys↗️ to move the hungry snake and you can also use 'W' '
  <br>
 	&ensp; &ensp;&ensp;👉<b>D</b>: Move right (to the right on the screen).
  <br>
+ 	
 You can use <b>'esc'</b> to pause the game and if you press <b>'esc'</b> again the game resumes.
 
 Credits💳:
