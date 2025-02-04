@@ -1,6 +1,6 @@
 # SnakeGame
 
-SNAKE on HUNT  
+SNAKE on HUNT   
 
 A classic Snake game written in C++ where the snake hunts for food and grows longer while avoiding obstacles like walls and its own body. Designed to run on Linux-based systems, this game brings back the nostalgia and addictive twist.
 
@@ -27,6 +27,7 @@ You can use Arrow keys to move the hungry snake and you can also use WASD.
 You can use 'esc' to pause the game and if you press 'esc' again the game resumes.
 
 Credits:
+hello
 
 Tanishq Shah, 
 Yash Oza, 
