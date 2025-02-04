@@ -28,8 +28,8 @@ You can use 'esc' to pause the game and if you press 'esc' again the game resume
 
 Credits:
 
-Tanishq Shah
-Yash Oza
-Dhvanit Shah
-Yash Vaghela
-Om Sutariya
+Tanishq Shah, 
+Yash Oza, 
+Dhvanit Shah, 
+Yash Vaghela, 
+Om Sutariya.
