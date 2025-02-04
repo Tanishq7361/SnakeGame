@@ -1,6 +1,6 @@
 # SnakeGame
 
-<H1 style="color:red">GAME : SNAKE ON HUNT 🐍🐍 </H1>
+<H1>GAME : SNAKE ON HUNT 🐍🐍 </H1>
 
 <P>&ensp; &ensp; &ensp; A Snake game written in C++ where the snake hunts for food🍊 and grows longer while avoiding obstacles like walls🧱 and its own body. Designed to run on Linux-based systems🖥️, this game brings back the nostalgia and addictive twist.</P>
 
@@ -10,15 +10,15 @@
 
 <u><b><h2>Features:🎯</h2></b></u>
 
-&ensp; &ensp; Classic Snake gameplay with modern tweaks.
+&ensp; &ensp;👉 Classic Snake gameplay with modern tweaks.
 <br>
-&ensp; &ensp; Random food generation for added excitement.
+&ensp; &ensp;👉 Random food generation for added excitement.
 <br>
-&ensp; &ensp; Increasing snake speed as it grows longer.
+&ensp; &ensp;👉 Increasing snake speed as it grows longer.
 <br>
-&ensp; &ensp; Playable using both arrow keys and WASD keys for flexibility.
+&ensp; &ensp;👉 Playable using both arrow keys and WASD keys for flexibility.
 <br>
-&ensp; &ensp; Clear and intuitive terminal-based interface.
+&ensp; &ensp;👉 Clear and intuitive terminal-based interface.
 <br>
 <u><b><h2>How to play game🎮</h2></b></u>
 
@@ -26,13 +26,13 @@ It's SUPER EASY.
 <br>
 You can use Arrow keys to move the hungry snake and you can also use WASD.
 <br>
-	&ensp; &ensp;&ensp;W: Move up (upwards on the screen).
+	&ensp; &ensp;&ensp;👉W: Move up (upwards on the screen).
  <br>
-	&ensp; &ensp;&ensp;A: Move left (to the left on the screen).
+	&ensp; &ensp;&ensp;👉A: Move left (to the left on the screen).
  <br>
-	&ensp; &ensp;&ensp;S: Move down (downwards on the screen).
+	&ensp; &ensp;&ensp;👉S: Move down (downwards on the screen).
  <br>
-	&ensp; &ensp;&ensp;D: Move right (to the right on the screen).
+	&ensp; &ensp;&ensp;👉D: Move right (to the right on the screen).
  <br>
 You can use 'esc' to pause the game and if you press 'esc' again the game resumes.
 
