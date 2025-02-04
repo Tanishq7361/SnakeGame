@@ -1,8 +1,12 @@
 # SnakeGame
-
+<style>
+	.h1{
+		backgroung-color=white;
+	}
+</style>
 <H1>GAME : SNAKE ON HUNT 🐍🐍 </H1>
 
-<P>A Snake game written in C++ where the snake hunts for food and grows longer while avoiding obstacles like walls and its own body. Designed to run on Linux-based systems, this game brings back the nostalgia and addictive twist.</P>
+<P>A Snake game written in C++ where the snake hunts for food🍑 and grows longer while avoiding obstacles like walls🧱 and its own body. Designed to run on Linux-based systems🖥️, this game brings back the nostalgia and addictive twist.</P>
 
 <h2><b><u>Introduction:</u></b></h2>
 
