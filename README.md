@@ -27,6 +27,7 @@ You can use Arrow keys to move the hungry snake and you can also use WASD.
 You can use 'esc' to pause the game and if you press 'esc' again the game resumes.
 
 Credits:
+hello
 
 Tanishq Shah
 Yash Oza
