@@ -49,23 +49,23 @@ private:
         cout << "\033[H\033[J";
         for (ll i = 0; i < h; i++) {
             for (ll j = 0; j < w; j++) {
-                if(i==0 && j==0) cout<<"┌";
-                else if(i==0 && j==w-1) cout<<"┐";
-                else if(i==h-1 && j==0) cout<<"└";
-                else if(i==h-1 && j==w-1) cout<<"┘";
-                else if(i == 0 || i == h - 1) cout<<"─";
-                else if(j == 0 || j == w - 1) cout<<"│";
+                if(i==0 && j==0) cout<<"\033[31m┌\033[0m";
+                else if(i==0 && j==w-1) cout<<"\033[31m┐\033[0m";
+                else if(i==h-1 && j==0) cout<<"\033[31m└\033[0m";
+                else if(i==h-1 && j==w-1) cout<<"\033[31m┘\033[0m";
+                else if(i == 0 || i == h - 1) cout<<"\033[31m─\033[0m";
+                else if(j == 0 || j == w - 1) cout<<"\033[31m│\033[0m";
                 else if (i == food.y && j == food.x) {
-                    cout << "●";
+                    cout << "\033[32m●\033[0m";
                 }
                 else {
                     bool prll = false;
                      for (size_t k = 0; k < snake.size(); k++) {
                         if (snake[k].x == j && snake[k].y == i) {
                             if (k == 0)
-                                cout << "■";
+                                cout << "\033[33m■\033[0m";
                             else
-                                cout << "□";
+                                cout << "\033[33m□\033[0m";
                             prll = true;
                             break;
                         }
