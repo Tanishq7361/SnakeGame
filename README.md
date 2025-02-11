@@ -9,7 +9,7 @@
 &ensp; &ensp; &ensp; Snake on Hunt is a simple but engaging Snake game where you control a snake that hunts for food. As the snake eats food🍉, it grows in size. The main challenge is to avoid hitting walls or the snake’s own body. The game is built in C++ and is optimized to run very smoothly in a Linux terminal.
 
 <u><b><h2>Features:🎯</h2></b></u>
-
+> blockquote
 &ensp; &ensp;👉 Classic Snake gameplay with modern tweaks.
 <br>
 &ensp; &ensp;👉 Random food generation for added excitement.
