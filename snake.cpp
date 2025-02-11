@@ -13,7 +13,7 @@ const int fast = 10000;
 
 #define ll long long int
 #define entr cout << '\n'
-#define done done
+#define done return
 #define pb push_back
 #define ppb pop_back
 
@@ -159,7 +159,7 @@ private:
     }
 
 public:
-    game() : score(0), dir('d'), prevdir('d'), over(false) {
+    games() : score(0), dir('d'), prevdir('d'), over(false) {
         snake.pb({w / 2, h / 2});
         snake.pb({w / 2 - 1, h / 2});
         snake.pb({w / 2 - 2, h / 2});
@@ -183,4 +183,5 @@ signed main() {
     srand(time(0)); 
     games game; 
     game.run();
+    return 0;
 }
