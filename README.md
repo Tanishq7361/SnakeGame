@@ -1,44 +1,48 @@
-# SnakeGame
+# GAME : SNAKE ON HUNT 🐍🐍
 
-<H1>GAME : SNAKE ON HUNT 🐍🐍 </H1>
+&ensp;&ensp;&ensp;A **Snake game** written in **C++** where the snake hunts for food🍊 and grows longer while avoiding obstacles like walls🧱 and its own body. Designed to run on **Linux-based systems**🖥️, this game brings back the nostalgia and addictive twist.</P>
 
-<P>&ensp; &ensp; &ensp; A Snake game written in C++ where the snake hunts for food🍊 and grows longer while avoiding obstacles like walls🧱 and its own body. Designed to run on Linux-based systems🖥️, this game brings back the nostalgia and addictive twist.</P>
+## Introduction : 🚀
 
-<h2><b><u>Introduction:🚀</u></b></h2>
+&ensp;&ensp;&ensp;Snake on Hunt is a simple but engaging Snake game where you control a snake that hunts for food. As the snake eats food🍉, it grows in size. The main challenge is to avoid hitting walls or the snake’s own body. The game is built in C++ and is optimized to run very smoothly in a Linux terminal.
 
-&ensp; &ensp; &ensp; Snake on Hunt is a simple but engaging Snake game where you control a snake that hunts for food. As the snake eats food🍉, it grows in size. The main challenge is to avoid hitting walls or the snake’s own body. The game is built in C++ and is optimized to run very smoothly in a Linux terminal.
+## Features 📌
 
-<u><b><h2>Features:🎯</h2></b></u>
-> blockquote
-&ensp; &ensp;👉 Classic Snake gameplay with modern tweaks.
-<br>
-&ensp; &ensp;👉 Random food generation for added excitement.
-<br>
-&ensp; &ensp;👉 Increasing snake speed as it grows longer.
-<br>
-&ensp; &ensp;👉 Playable using both arrow keys and WASD keys for flexibility.
-<br>
-&ensp; &ensp;👉 Clear and intuitive terminal-based interface.
-<br>
-&ensp; &ensp;👉 Increases speed of snake after it consumes food 
-<br>
-<u><b><h2>How to play game🎮</h2></b></u>
+- 🍊 Random food Placement & ensures food does not appear on the snake’s body.
+- 🎮 Playable using both arrow keys and (`W`,`A`,`S`,`D`) keys for flexibility.
+- 💻 Clear and intuitive terminal-based interface.
+- 🌈 ASCII Graphics used for better visualization.
+- 🔚 The game ends when the snake collides with itself or the walls
+- 💨 As the snake eats food, its speed increases, making the game more challenging.
 
-It's SUPER EASY.
+
+
+## How to play game🎮
+
+It's Super Easy.
 <br>
-You can use Arrow keys↗️ to move the hungry snake and you can also use 'W' 'A' 'S' 'D'.
-<br>
-	&ensp; &ensp;&ensp;👉<b>W</b>: Move up (upwards on the screen).
- <br>
-	&ensp; &ensp;&ensp;👉<b>A</b>: Move left (to the left on the screen).
- <br>
-	&ensp; &ensp;&ensp;👉<b>S</b>: Move down (downwards on the screen).
- <br>
-	&ensp; &ensp;&ensp;👉<b>D</b>: Move right (to the right on the screen).
- <br>
+1. (`W` , `A` , `S` , `D`) : Control the snake’s movement.<br>
+	&ensp;&ensp;`W` : Move up (upwards on the screen).<br>
+	&ensp;&ensp;`A` : Move left (to the left on the screen).<br>
+	&ensp;&ensp;`S` : Move down (downwards on the screen).<br>
+	&ensp;&ensp;`D` : Move right (to the right on the screen).<br>
+2. **Eat food `@`**: Increase the score and lengthen the snake.
+3. **Avoid Walls & Self-Collision** : The game ends if the snake hits a wall or itself.
  	
-You can use <b>'esc'</b> to pause the game and if you press <b>'esc'</b> again the game resumes.
+## 📊 Data Structure Analysis
+### Data Structure Used 
+This game primarily utilizes the following data structures:
 
+1. **Vector (`std::vector<pos> snake`):**
+   - Stores the positions of all snake segments.
+   - The front element represents the snake’s head.
+   - New positions are added to the front, and the last element is removed unless food is consumed.
+   - Provides dynamic resizing and fast insertions at the beginning.
+2. **Struct (`struct pos`):**
+   - Represents a coordinate (x, y) on the board.
+   - Used for both the snake’s body parts and the food position.
+3. **Game Class**
+   -
 Credits💳:
 
 👨‍💻[Tanishq Shah](https://github.com/Tanishq7361) <br>
