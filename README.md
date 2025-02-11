@@ -41,8 +41,8 @@ You can use <b>'esc'</b> to pause the game and if you press <b>'esc'</b> again t
 
 Credits💳:
 
-👨‍💻Tanishq Shah, <br>
-👨‍💻Yash Oza, <br>
-👨‍💻Dhvanit Shah, <br>
-👨‍💻Yash Vaghela, <br>
-👨‍💻Om Sutariya.
+👨‍💻[Tanishq Shah](https://github.com/Tanishq7361) <br>
+👨‍💻[Yash Oza](https://github.com/Yash-Oza-ui) <br>
+👨‍💻[Dhvanit Shah](https://github.com/shahdhvanit) <br>
+👨‍💻[Yash Vaghela](https://github.com/Yash071-ma) <br>
+👨‍💻[Om Sutariya](https://github.com/Tanishq7361)
