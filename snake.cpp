@@ -181,7 +181,18 @@ public:
 
 
 signed main() {
-    srand(time(0)); 
+    srand(time(0));
+    cout << "\033[1;36m===============================\033[0m" << endl;
+    cout << "\033[1;35m    TEAM AURA++ PRESENTS\033[0m" << endl;
+    cout << "\033[1;32m THE NOSTALGIC FUN GAME \033[0m" << endl;
+    cout << "\033[1;33m    THE SNAKE HUNT \033[0m" << endl;
+    cout << "\033[1;36m===============================\033[0m" << endl;
+    
+    for (int i = 5; i > 0; i--) {
+        cout <<"\033[2K\r\033[1;33mGame will start in " << i << " seconds...\033[0m" << flush;
+        sleep(1);
+    }
+    cout << "\033[2J\033[H";
     games game; 
     game.run();
     return 0;
