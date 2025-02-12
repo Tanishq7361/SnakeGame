@@ -11,7 +11,7 @@
 - 🍊 Random food Placement & ensures food does not appear on the snake’s body.
 - 🎮 Playable using both arrow keys and (`W`,`A`,`S`,`D`) keys for flexibility.
 - 💻 Clear and intuitive terminal-based interface.
-- 🌈 ASCII Graphics used for better visualization.
+- ASCII Graphics used for better visualization.
 - 🔚 The game ends when the snake collides with itself or the walls
 - 💨 As the snake eats food, its speed increases, making the game more challenging.
 
