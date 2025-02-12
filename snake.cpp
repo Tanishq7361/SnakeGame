@@ -21,6 +21,8 @@ struct pos {
     ll x, y;
 };
 
+ll highest_score = 0;
+
 class games {
 private:
     vector<pos> snake;
@@ -75,7 +77,7 @@ private:
             }
             entr;
         }
-        cout << "Score: " << score << endl;
+        cout << "Score: " << score << " | Highest Score: " << highest_score << endl;
     }
     void setInputMode() { 
         struct termios t;
@@ -175,25 +177,42 @@ public:
             logic();
             usleep((dir == 'w' || dir == 's') ? vertispeed : horispeed);
         }
-        cout << "Game Over! Final Score: " << score << endl;
+        if (score > highest_score || highest_score == 0) highest_score = score;
+
+        cout << "\n\033[1;31m"
+        << "╔══════════════════════════════╗\n"
+        << "║          GAME OVER!          ║\n"
+        << "╚══════════════════════════════╝\n\033[0m"; 
+
+        cout << "\033[1;32mFinal Score: \033[1;33m" << score 
+            << "\033[0m | \033[1;36mHighest Score: \033[1;33m" 
+            << highest_score << "\033[0m\n\n";
     }
 };
 
 
 signed main() {
     srand(time(0));
-    cout << "\033[1;36m===============================\033[0m" << endl;
-    cout << "\033[1;35m    TEAM AURA++ PRESENTS\033[0m" << endl;
-    cout << "\033[1;32m THE NOSTALGIC FUN GAME \033[0m" << endl;
-    cout << "\033[1;33m    THE SNAKE HUNT \033[0m" << endl;
-    cout << "\033[1;36m===============================\033[0m" << endl;
-    
-    for (int i = 5; i > 0; i--) {
-        cout <<"\033[2K\r\033[1;33mGame will start in " << i << " seconds...\033[0m" << flush;
-        sleep(1);
-    }
-    cout << "\033[2J\033[H";
-    games game; 
-    game.run();
+    char choice;
+    do {
+
+        cout << "\033[1;36m===============================\033[0m" << endl;
+        cout << "\033[1;35m    TEAM AURA++ PRESENTS\033[0m" << endl;
+        cout << "\033[1;32m   THE NOSTALGIC FUN GAME \033[0m" << endl;
+        cout << "\033[1;33m       THE SNAKE HUNT \033[0m" << endl;
+        cout << "\033[1;36m===============================\033[0m" << endl;
+        
+        for (int i = 5; i > 0; i--) {
+            cout <<"\033[2K\r\033[1;33mGame will start in " << i << " seconds...\033[0m" << flush;
+            sleep(1);
+        }
+        cout << "\033[2J\033[H";
+        games game; 
+        game.run();
+        cout << "\033[1;36m>> Press ENTER to Play Again! <<\n";
+        cout << ">> Press ESC to Quit. <<\033[0m\n";
+        cout<<"\n";
+        choice = getchar();
+    } while (choice == '\n');
     return 0;
 }
