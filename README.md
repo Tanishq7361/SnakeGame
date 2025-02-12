@@ -41,8 +41,23 @@ This game primarily utilizes the following data structures:
 2. **Struct (`struct pos`):**
    - Represents a coordinate (x, y) on the board.
    - Used for both the snake’s body parts and the food position.
-3. **Game Class**
-   -
+3. **Boolean :**
+   - Tracks whether the game is over.
+   - Prevents unnecessary computations once the game ends.
+4. **Character :**
+   - Stores the current and previous movement direction.
+   - Prevents reversing direction instantly (which would cause self-collision).
+5. **Speed Control**
+   - Adjusts game difficulty by dynamically decreasing delay based on the score.
+   - Uses different speeds for horizontal and vertical movement to balance gameplay.
+
+### **Object-Oriented Approach**
+- **Encapsulation**: The Snake and Food classes encapsulate game-related data and logic, preventing direct access to internal attributes and ensuring better control over game mechanics.
+- **Abstraction**: The complexity of the game mechanics is hidden within well-defined classes, allowing users to interact with high-level methods without worrying about implementation details.
+- **Modularity**: Game logic is separated into different functions.
+- **Platform Compatibility**: Uses `termios.h` for Linux.
+- **Dynamic Memory Allocation** : The Snake class uses vector to dynamically allocate memory for each new segment.
+
 Credits💳:
 
 👨‍💻[Tanishq Shah](https://github.com/Tanishq7361) <br>
@@ -50,3 +65,10 @@ Credits💳:
 👨‍💻[Dhvanit Shah](https://github.com/shahdhvanit) <br>
 👨‍💻[Yash Vaghela](https://github.com/Yash071-ma) <br>
 👨‍💻[Om Sutariya](https://github.com/thunder1907)
+
+
+## License
+This project is licensed under the **MIT License.** 
+
+
+
