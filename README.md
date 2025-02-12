@@ -21,7 +21,7 @@
 
 It's Super Easy.
 <br>
-1. (`W` , `A` , `S` , `D`) : Control the snake’s movement.<br>
+1. (`W` , `A` , `S` , `D`) : Control the snake’s movement. we can also control by arrow keys↗️<br>
 	&ensp;&ensp;`W` : Move up (upwards on the screen).<br>
 	&ensp;&ensp;`A` : Move left (to the left on the screen).<br>
 	&ensp;&ensp;`S` : Move down (downwards on the screen).<br>
