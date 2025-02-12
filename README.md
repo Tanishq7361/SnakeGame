@@ -51,11 +51,14 @@ This game primarily utilizes the following data structures:
    - Adjusts game difficulty by dynamically decreasing delay based on the score.
    - Uses different speeds for horizontal and vertical movement to balance gameplay.
 
-### **Object-Oriented Approach**
-- **Encapsulation**: The Snake and Food classes encapsulate game-related data and logic, preventing direct access to internal attributes and ensuring better control over game mechanics.
+### **OOPS**
+
+- **Encapsulation**: The Snake and Food classes encapsulate game-related data and logic and preventing direct access to internal attributes
+  
 - **Abstraction**: The complexity of the game mechanics is hidden within well-defined classes, allowing users to interact with high-level methods without worrying about implementation details.
-- **Modularity**: Game logic is separated into different functions.
+  
 - **Platform Compatibility**: Uses `termios.h` for Linux.
+  
 - **Dynamic Memory Allocation** : The Snake class uses vector to dynamically allocate memory for each new segment.
 
 Credits💳:
