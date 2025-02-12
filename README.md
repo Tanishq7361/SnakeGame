@@ -49,4 +49,4 @@ Credits💳:
 👨‍💻[Yash Oza](https://github.com/Yash-Oza-ui) <br>
 👨‍💻[Dhvanit Shah](https://github.com/shahdhvanit) <br>
 👨‍💻[Yash Vaghela](https://github.com/Yash071-ma) <br>
-👨‍💻[Om Sutariya](https://github.com/Tanishq7361)
+👨‍💻[Om Sutariya](https://github.com/thunder1907)
