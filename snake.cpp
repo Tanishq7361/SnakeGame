@@ -56,7 +56,7 @@ private:
                 else if(i == 0 || i == h - 1) cout<<"\033[31m─\033[0m";
                 else if(j == 0 || j == w - 1) cout<<"\033[31m│\033[0m";
                 else if (i == food.y && j == food.x) {
-                    cout << "\033[32m●\033[0m";
+                    cout << "\033[32m$\033[0m";
                 }
                 else {
                     bool prll = false;
@@ -103,6 +103,7 @@ private:
         }
         done false;
     }
+
     void input() {
         if (kbhit()) {
             char key = getchar();
@@ -136,7 +137,7 @@ private:
             case 'd': head.x++; break;
         }
         prevdir = dir;
-        if (head.x <= 0 || head.x >= w - 1 || head.y <= 0 || head.y >= h - 1) { //if head collides over
+        if (head.x <= 0 || head.x >= w - 1 || head.y <= 0 || head.y >= h - 1) { 
             over = true;
             done;
         }
@@ -151,8 +152,8 @@ private:
         if (head.x == food.x && head.y == food.y) {
             score += 100;
             spawn();
-            if (horispeed > 20000) horispeed -= fast;
-            if (vertispeed > 30000) vertispeed -= fast;
+            if (horispeed > 25000) horispeed -= fast;
+            if (vertispeed > 35000) vertispeed -= fast;
         } else {
             snake.ppb();
         }
